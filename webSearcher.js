@@ -69,10 +69,10 @@ function makeUrl(){
     if(
         targetUrl !== cmdclickLongPressLinkUrlStr
     ) return targetUrl;
-    const externalEexcLink = "${CMDDLICK_EXTERNAL_EXEC_REPLACE_TXT1}";
+    const externalEexcLink = "${EXTERNAL_EXEC_REPLACE_TXT1}";
     const cmdclickExternalExecReplaceTextStr =
-        "${CMDDLICK_ENCRPT_EXTERNAL_EXEC_REPLACE_TXT1}".replace(
-        "_ENCRPT",
+        "${ENCRPT_EXTERNAL_EXEC_REPLACE_TXT1}".replace(
+        "ENCRPT_",
         ""
     );
     if(
